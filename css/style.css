@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin: 0;
+	background: #eee;
+	height: auto;
+	background-size: cover; 
+}
+
+main{
+	margin: auto;
+}
+
+.background-image{
+	background: url("../images/background.jpg");
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	margin: 0;
+	filter: blur(4px); 
+}
+.landing-text h1{
+	margin: 0;
+	color: #0d47a1;
+}
+.landing-text h3{
+	margin-top: 0;
+	margin-left: 35px;  
+	color: #2196f3;
+}
+.landing-text h1 span{
+	font-weight: 800px;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.landing-text{
+	width: auto;
+	font-size: 1.2em;
+	text-align: left;
+	margin-left: 8em;
+	margin-top: -23em;
+	position: absolute;
+
+}
+.logo{
+	position: absolute;
+	width: 150px;
+	z-index: 9999;
+	margin-left: 2.5em;
+	margin-top: 1.5em;   
+}	
+.landing-text .button{
+	padding: 0.5rem 2rem;
+	border: 1px #ccc solid;
+	display: inline-block;
+	margin-left: 4em;
+	border-radius: 50px;
+	text-decoration: none;
+	color: #000000; 
+	background: #82b1ff;
+	transition: background 500ms ease;
+	cursor: pointer;
+}
+.button:hover{
+	background: #d50000;
+	color: #ffffff;
+}
+ul{
+	list-style-type: none;
+	margin-top: 1.5em;
+}
+li{
+	display: inline;
+	font-size: 25px;
+	padding-right: 6em;
+
+
+}
+a{
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+	font-weight: 900;
+	color: #0d47a1;
+}
+a:hover{
+	color: #d50000;
+}
