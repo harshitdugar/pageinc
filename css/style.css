@@ -15,14 +15,14 @@ main{
 }
 
 .background-image{
-	background: url("../images/background.jpg");
+	background: url("../images/background2.jpg");
 	width: 100%;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100vh;
 	margin: 0;
-	filter: blur(4px); 
+	/*filter: blur(4px);*/ 
 }
 .landing-text h1{
 	margin: 0;
